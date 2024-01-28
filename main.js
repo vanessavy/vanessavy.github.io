@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Home from './src/components/Home'
+import App from '.App.vue'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -32,5 +32,5 @@ new Vue({
     AOS.init()
   },
   router,
-  render: h => h(Home),
+  render: h => h(App),
 }).$mount('#app')
