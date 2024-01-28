@@ -14,16 +14,16 @@
 </template>
 
 <script>
-import Navbar from "./components/Navbar.vue";
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Portfolio from "./components/Portfolio";
-import Recommendation from "./components/Recommendation";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Navbar from "./src/components/Navbar.vue";
+import Home from "./src/components/Home";
+import About from "./src/components/About";
+import Skills from "./src/components/Skills";
+import Portfolio from "./src/components/Portfolio";
+import Recommendation from "./src/components/Recommendation";
+import Contact from "./src/components/Contact";
+import Footer from "./src/components/Footer";
 
-import info from "../info";
+import info from "./info";
 
 export default {
   name: "App",
