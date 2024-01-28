@@ -1,6 +1,14 @@
 module.exports = {
     chainWebpack: config => {
-        config.module.rules.delete('eslint');
+        config.module.rules.delete('eslint'),
+        config.module
+            .rule('images')
+            .set('parser', {
+                dataUrlCondition: {
+                maxSize: 4 * 1024 // 4KiB
+                }
+            })
+          
     },
     configureWebpack:{
         performance: {
