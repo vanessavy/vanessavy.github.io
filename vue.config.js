@@ -20,6 +20,7 @@ module.exports = {
             maxSize: 250000,
           }
         }
-    }
+    },
+    publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
 }
 
