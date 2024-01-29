@@ -68,7 +68,7 @@ export default {
   },
   data() {
     return {
-      picture: info.flat_picture,
+      picture: 'info.flat_picture',
       description: info.description,
       name: info.name,
       linkedin: info.links.linkedin,
