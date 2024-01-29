@@ -1,7 +1,7 @@
 let info = {
   name: "Vanessa Nguyen",
   logo_name: "vanessa",
-  flat_picture: import("./src/assets/portrait.jpg"),
+  flat_picture: "",
   config: {
     use_cookies: true,
     navbar: {

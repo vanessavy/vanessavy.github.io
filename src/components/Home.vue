@@ -11,7 +11,7 @@
     >
       <div class="row align-items-center">
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
-          <img v-bind:src="require('../assets/portrait.jpg')"/>
+          <img v-bind:src="require('../../public/portrait.jpg')"/>
         </div>
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
           <span
@@ -56,7 +56,6 @@ import info from "../../info";
 
 import Wave from "./helpers/Wave";
 
-import image from "../assets/portrait.jpg"
 export default {
   name: "Home",
   components: {
@@ -69,7 +68,7 @@ export default {
   },
   data() {
     return {
-      picture: image,
+      picture: info.flat_picture,
       description: info.description,
       name: info.name,
       linkedin: info.links.linkedin,
