@@ -1,6 +1,6 @@
 let info = {
   name: "Vanessa Nguyen",
-  logo_name: "vanessa",
+  logo_name: "Vanessa",
   flat_picture: require("./public/portrait.jpg"),
   config: {
     use_cookies: true,
