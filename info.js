@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "I'm a M.Sc student in Informations and Communications Technology at Lund University with an interest in Software Development, UX Design, VR Development - and seeking exciting opportunities related to the same areas.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I would bring to the table a wide range of software skills, ranging from UX/UI design to software development. I believe that the skills that I have attained from my education and past experiences has made me to a wellrounded software developer, and I am looking forward to implementing and polishing my skills in any opportunity that I receive. ",
+    "I'm a M.Sc student in Informations and Communications Technology at Lund University with an interest in Software Development, UX Design, VR Development - and seeking exciting opportunities related to the same areas.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I obtain a wide range of software skills, ranging from UX/UI design to software development. I believe that the skills that I have attained from my education and past experiences has made me to a wellrounded software developer, and I am looking forward to implementing and polishing my skills in any opportunity that I receive. ",
   links: {
     linkedin: "https://linkedin.com/in/vanessa-nguyen-485186267",
     github: "https://github.com/vanessavy",
