@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./public/Axis/Axis.png"],"names":["module","exports"],"mappings":"mGAAAA,EAAOC,QAAU,IAA0B","file":"js/chunk-2d0c0a72.6fa3100c.js","sourcesContent":["module.exports = __webpack_public_path__ + \"img/Axis.6b2de6a8.png\";"],"sourceRoot":""}

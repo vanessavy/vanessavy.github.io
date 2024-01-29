@@ -164,10 +164,10 @@ let info = {
       name: "Axis Communications",
       pictures: [
         {
-          img: require('./public/Axis/Axis.png')
+          img: import('./public/Axis/Axis.png')
         },
         {
-          img: require("./public/Axis/Sitedesigner.png")
+          img: import("./public/Axis/Sitedesigner.png")
         }
       ],
       technologies: ["React", "Node.js", "Typescript", "Git", "UX design", "Figma"],
