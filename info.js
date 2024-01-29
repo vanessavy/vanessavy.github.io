@@ -11,11 +11,10 @@ let info = {
   description:
     "A fifth year M.Sc student in Informations and Communications Technology at Lund University with an interest in Software Development, UX Design, VR Development - and seeking exciting opportunities related to the same.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I would bring to table a wide range of software skills, ranging from design and development to writing scripts for intelligent agents. I believe that the skills that I have attained from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
   links: {
-    linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
-    github: "https://github.com/hrishikeshpaul",
-    angellist: "https://angel.co/u/hrishikesh-paul",
+    linkedin: "https://linkedin.com/in/vanessa-nguyen-485186267",
+    github: "https://github.com/vanessavy",
     resume:
-      "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
+      "https://github.com/vanessavy/vanessavy.github.io/blob/main/src/assets/pdfs/Resume.pdf"
   },
   education: [
     {
