@@ -11,7 +11,7 @@
     >
       <div class="row align-items-center">
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
-          <img :src="picture"/>
+          <img :src="'../../public/portrait.jpg'"/>
         </div>
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
           <span
@@ -68,7 +68,7 @@ export default {
   },
   data() {
     return {
-      picture: 'info.flat_picture',
+      picture: info.flat_picture,
       description: info.description,
       name: info.name,
       linkedin: info.links.linkedin,
