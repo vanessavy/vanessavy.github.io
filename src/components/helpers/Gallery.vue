@@ -12,7 +12,7 @@
         }"
       >
         <img
-          :src="i.img"
+          :src="'../../'+i.img"
           style="width:100%"
           :id="`gi${idx}`"
           @click="showImg(idx)"
