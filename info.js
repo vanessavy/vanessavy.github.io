@@ -164,10 +164,10 @@ let info = {
       name: "Axis Communications",
       pictures: [
         {
-          img: '/public/Axis/Axis.png'
+          img: '/public/assets/portfolio/Axis/Axis.png'
         },
         {
-          img: "/public/Axis/Sitedesigner.png"
+          img: "/public/assets/portfolio/Axis/Sitedesigner.png"
         }
       ],
       technologies: ["React", "Node.js", "Typescript", "Git", "UX design", "Figma"],
@@ -180,13 +180,13 @@ let info = {
       name: "A musical VR Experience",
       pictures: [
         {
-          img: require("./src/assets/portfolio/VR/poster.png")
+          img: "/public/assets/portfolio/VR/poster.png"
         },
         {
-          img: require("./src/assets/portfolio/VR/wideshot.png")
+          img: "/public/assets/portfolio/VR/wideshot.png"
         },
         {
-          img: require("./src/assets/portfolio/VR/testing.png")
+          img: "/public/assets/portfolio/VR/testing.png"
         }
       ],
       technologies: ["Unity", "Blender", "C#", "VR"],
@@ -199,7 +199,7 @@ let info = {
       name: "To Be a Robot",
       pictures: [
         {
-          img: require("./src/assets/portfolio/TBAR/To Be a Robot.png")
+          img: "/public/assets/portfolio/TBAR/To Be a Robot.png"
         }
       ],
       technologies: ["Unity", "Blender", "C#", "VR"],
@@ -212,10 +212,10 @@ let info = {
       name: "Äggstafett",
       pictures: [
         {
-          img: require("./src/assets/portfolio/äggstafett/one.png")
+          img: "/public/assets/portfolio/äggstafett/one.png"
         },
         {
-          img: require("./src/assets/portfolio/äggstafett/two.png")
+          img: "/public/assets/portfolio/äggstafett/two.png"
         }
       ],
       technologies: ["Java", "Android Studios", "Mobile development"],
@@ -231,15 +231,15 @@ let info = {
       title: "EcoFinder - Mockup Design",
       pictures: [
         {
-          img: require("./src/assets/designs/ecofinder/1.png"),
+          img: "/public/assets/designs/ecofinder/1.png",
           title: "Home Page"
         },
         {
-          img: require("./src/assets/designs/ecofinder/2.png"),
+          img: "/public/assets/designs/ecofinder/2.png",
           title: "Info Page"
         },
         {
-          img: require("./src/assets/designs/ecofinder/3.png"),
+          img: "/public/assets/designs/ecofinder/3.png",
           title: "Voucher Page"
         }
       ],
@@ -254,15 +254,15 @@ let info = {
       title: "PNM - Mockup Design",
       pictures: [
         {
-          img: require("./src/assets/designs/Pinteg/one.png"),
+          img: "/public/assets/designs/Pinteg/one.png",
           title: "Start page"
         },
         {
-          img: require("./src/assets/designs/Pinteg/two.png"),
+          img: "/public/assets/designs/Pinteg/two.png",
           title: "Edit page"
         },
         {
-          img: require("./src/assets/designs/Pinteg/three.png"),
+          img: "/public/assets/designs/Pinteg/three.png",
           title: "Confirmation page"
         }
       ],
