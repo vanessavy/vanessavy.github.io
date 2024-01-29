@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/assets/portrait.jpg"],"names":["module","exports"],"mappings":"mGAAAA,EAAOC,QAAU,IAA0B","file":"js/chunk-2d216c04.a15be301.js","sourcesContent":["module.exports = __webpack_public_path__ + \"img/portrait.fb6c39aa.jpg\";"],"sourceRoot":""}
