@@ -22,7 +22,6 @@ let info = {
       place: "Sweden",
       date: "Aug, 2019 - current",
       degree: "M.Sc in Informations and Communications Technology",
-      gpa: "3.0/4.0",
       description:
         "Currently pursuing my Master's in Informations and Communications Technology, while specializing in the field of Interaction Design and Usability.",
       skills: [
@@ -39,7 +38,6 @@ let info = {
       place: "Canada",
       date: "Aug, 2023 - January, 2025",
       degree: "Software",
-      gpa: "8.0/10.0",
       description:
         "An exchange term studying courses related to Software Development.",
       skills: [
