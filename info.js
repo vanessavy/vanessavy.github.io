@@ -14,7 +14,7 @@ let info = {
     linkedin: "https://linkedin.com/in/vanessa-nguyen-485186267",
     github: "https://github.com/vanessavy",
     resume:
-      "https://github.com/vanessavy/vanessavy.github.io/blob/main/src/assets/pdfs/Resume.pdf"
+      "https://github.com/vanessavy/vanessavy.github.io/blob/main/public/assets/pdfs/Resume.pdf"
   },
   education: [
     {
