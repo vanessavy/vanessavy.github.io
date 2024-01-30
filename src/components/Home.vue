@@ -19,6 +19,7 @@
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
             >Hello there!</span
           >
+          <Wave class="home-title"/>
           <div>
             <p v-html="description"></p>
           </div>
@@ -53,14 +54,16 @@
 
 <script>
 import info from "../../info";
+import Wave from "./helpers/Wave.vue";
 
-import Wave from "./helpers/Wave";
 
 export default {
   name: "Home",
   components: {
     Wave,
-  },
+    Wave,
+    Wave
+},
   props: {
     nightMode: {
       type: Boolean,

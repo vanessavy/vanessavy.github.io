@@ -1,5 +1,5 @@
 <template>
-  <span class="wave">👋🏽npm </span>
+  <span class="wave">👋🏼</span>
 </template>
 
 <script>
