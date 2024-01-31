@@ -204,7 +204,7 @@ let info = {
       category: "VR development",
       date: "Aug, 2022 - Jan, 2023",
       description:
-        "To Be a Robot is a research project, conducted along with two cognitive science master students from Lund University, investigating how restraint perceptual visual affect human's cognitive abilities. As a technical expert in this project, I was responsible for designing and developing the multiplayer VR game using Unity. In this game, players have the same restraint perception as a robot's (Epi) and are tasked to build a tower together. The game was developed to be played by two players simultaneously using Photon Pun. The VR systems used were Valve Index."
+        "To Be a Robot is a research project, conducted along with two cognitive science master students from Lund University, investigating how restraint visual perception affect human's cognitive abilities. As a technical expert in this project, I was responsible for designing and developing the multiplayer VR game using Unity. In this game, players have the same perception as a robot's (Epi) and are tasked to build a tower together. The game was developed to be played by two players simultaneously using Photon Pun. The VR systems used were Valve Index."
     },
     {
       name: "Äggstafett",
@@ -270,7 +270,7 @@ let info = {
       date: "Jan, 2023 - April, 2023",
       visit: "",
       description:
-        "Privacy Notice Management is a mockup webapplication created by my team and I in collaboration with Pinteg. The application's purpose is to facilitate for Pinteg's clients to manage their privacy notices."
+        "Privacy Notice Management is a mockup web application created by my team and I in collaboration with Pinteg. The application's purpose is to facilitate the management of privacy notices for Pinteg's clients."
     }
   ],
   /*recommendations: [
