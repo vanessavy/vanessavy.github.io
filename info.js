@@ -56,7 +56,7 @@ let info = {
       date: "Jun, 2023 - Aug, 2023",
       position: "Summer worker",
       description:
-        "Worked as a Software Intern for the SiteDesigner team at Axis, designed and developed a feature that enables RTL languages for the webtool.",
+        "Worked as a Software Intern for the SiteDesigner team at Axis, designed and developed a feature that enables RTL languages for a web application.",
       skills: ["React", "Node.js", "Typescript", "Git", "UX design", "Figma"]
     },
     {
@@ -65,7 +65,7 @@ let info = {
       date: "Aug, 2023 - Jan, 2024",
       position: "Software developer",
       description:
-        "Deployed multiple instances of Flask applications using AWS.",
+        "Deployed multiple instances of Flask applications and a cluster of MySQL using AWS. Used AWS to create virtual machines for different purposes. ",
       skills: ["AWS", "Flask", "Ubuntu", "Linux", "Cloud computing"]
     },
     {
@@ -74,7 +74,7 @@ let info = {
       date: "Jan, 2023 - Jun, 2023",
       position: "VR developer",
       description:
-        "Developed a VR application for musical experiences in collaboration with Capgemini using Unity and Blender.",
+        "Developed a VR application for musical experiences in collaboration with Capgemini using Unity and Blender. The application enables users to manipulate sounds, play instruments and experience music in a virtual environment with the use of hand tracking.",
       skills: ["Unity", "Blender", "C#", "VR"]
     },
     {
@@ -83,7 +83,7 @@ let info = {
       date: "Jan, 2022 - Jun, 2022",
       position: "Android developer",
       description:
-        "Developed an Android mobile game using Android Studio.",
+        "Developed an Android mobile game using Android Studio. The game involves players balancing an egg on a spoon and competing with others.",
       skills: ["Java", "Android Studios", "Mobile development"]
     },
     {
@@ -101,7 +101,7 @@ let info = {
       date: "Aug, 2021 - Nov, 2021",
       position: "Web developer",
       description:
-        "Developed an e-commerce website using React.",
+        "Developed an e-commerce website using React. The website enables users to browse and purchase plants and garden tools.",
       skills: ["React", "Web development", "php", "Javascript", "Typescript"]
     }
   ],
@@ -191,7 +191,7 @@ let info = {
       category: "VR development",
       date: "Jan, 2023 - Jun, 2023",
       description:
-        "Developed a music VR application Unity and Blender in collaboration with Capgemini. The VR application provides users with an immersive musical experience through hand tracking and interactive features. Users can manipulate, direct and experience music with hand gestures and various interactions. The VR system used for this project was Meta Quest 2."
+        "Developed a music VR application Unity and Blender in collaboration with Capgemini. The VR application provides users with an immersive musical experience with various interactive features. Users can manipulate, direct and experience music with hand gestures and interactions. The VR system used for this project was Meta Quest 2."
     },
     {
       name: "To Be a Robot",
@@ -204,7 +204,7 @@ let info = {
       category: "VR development",
       date: "Aug, 2022 - Jan, 2023",
       description:
-        "To Be a Robot is a research project, conducted along with two cognitive science master students from Lund University, investigating how restraint perceptual visual affect human's cognitive abilities. In this project, I was in charge of the technical aspect of the research, responsible for designing and developing the multiplayer VR game using Unity. In this game, players have the same restraint perception as a robot's (Epi) and are tasked to build a tower together. The game was developed to be played by two players simultaneously using Photon Pun. The VR systems used were Valve Index."
+        "To Be a Robot is a research project, conducted along with two cognitive science master students from Lund University, investigating how restraint perceptual visual affect human's cognitive abilities. As a technical expert in this project, I was responsible for designing and developing the multiplayer VR game using Unity. In this game, players have the same restraint perception as a robot's (Epi) and are tasked to build a tower together. The game was developed to be played by two players simultaneously using Photon Pun. The VR systems used were Valve Index."
     },
     {
       name: "Äggstafett",
