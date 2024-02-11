@@ -102,7 +102,7 @@ let info = {
       position: "Web developer",
       description:
         "Developed an e-commerce website using React. The website enables users to browse and purchase plants and garden tools.",
-      skills: ["React", "Web development", "php", "Javascript", "Typescript"]
+      skills: ["React", "Web development", "Javascript", "Typescript"]
     }
   ],
   skills: [
@@ -171,9 +171,7 @@ let info = {
       technologies: ["React", "Node.js", "Typescript", "Git", "UX design", "Figma"],
       category: "Front end development",
       date: "June, 2023 - Aug, 2023",
-      description:
-        "Responsible for designing and developing a feature that enables RTL languages for the SiteDesigner website. The UI components was designed using Figma and the feature was developed in React. Was also involved in introducing FluentUI to the website."
-    },
+      description: "I led the development of a feature that enables RTL languages on the SiteDesigner website, leveraging React for implementation. Additionally, I played a pivotal role in exploring the integration of FluentUI into the website's design framework using Figma."},
     {
       name: "A musical VR Experience",
       pictures: [
@@ -191,7 +189,7 @@ let info = {
       category: "VR development",
       date: "Jan, 2023 - Jun, 2023",
       description:
-        "Developed a music VR application Unity and Blender in collaboration with Capgemini. The VR application provides users with an immersive musical experience with various interactive features. Users can manipulate, direct and experience music with hand gestures and interactions. The VR system used for this project was Meta Quest 2."
+        "Collaborated with Capgemini to develop a music VR application using Unity and Blender. The VR application provides users with an immersive musical experience with various interactive features. Through hand gestures and interactions, users can manipulate, direct, and immerse themselves in the music. The VR system utilized for this project was the Meta Quest 2."
     },
     {
       name: "To Be a Robot",
@@ -203,9 +201,7 @@ let info = {
       technologies: ["Unity", "Blender", "C#", "VR"],
       category: "VR development",
       date: "Aug, 2022 - Jan, 2023",
-      description:
-        "To Be a Robot is a research project, conducted along with two cognitive science master students from Lund University, investigating how restraint visual perception affect human's cognitive abilities. As a technical expert in this project, I was responsible for designing and developing the multiplayer VR game using Unity. In this game, players have the same perception as a robot's (Epi) and are tasked to build a tower together. The game was developed to be played by two players simultaneously using Photon Pun. The VR systems used were Valve Index."
-    },
+      description: "To Be a Robot is a collaborative research project undertaken with two cognitive science master students from Lund University, focusing on understanding how restrained visual perception affects human cognitive abilities. As the technical lead, my role encompassed designing and developing a multiplayer VR game using Unity. In this immersive experience, players adopt the visual perspective of a robot (Epi) and collaborate to construct a tower. The game was engineered for dual-player engagement, facilitated by Photon Pun, and optimized for Valve Index VR systems."},
     {
       name: "Äggstafett",
       pictures: [
@@ -219,9 +215,7 @@ let info = {
       technologies: ["Java", "Android Studios", "Mobile development"],
       category: "Mobile app development",
       date: "Jan, 2022 - June, 2022",
-      description:
-        "In the app development domain, my team and I successfully developed an Android mobile game, Äggstafett, using Android Studio. The game aims to enable players to play the swedish game Äggstafett, where players have to balance an egg on a spoon and race each other. In this project, I was responsible for both designing and developing the game using tools such as Figma for designing and prototyping."
-    }
+      description:"In the realm of app development, our team achieved success in creating Äggstafett, an Android mobile game, utilizing Android Studio with pair programming. The game is inspired by the Swedish tradition of Äggstafett, challenging players to balance an egg on a spoon while racing against each other. Throughout the project, I undertook the dual roles of designing and developing the game. The implementation was done by pair programming in Java and using Figma for design purposes."    }
   ],
   portfolio_design: [
     {
@@ -245,7 +239,7 @@ let info = {
       category: "UI Design",
       date: "Aug, 2021 - Jan, 2022",
       description:
-        "EcoFinder is a mockup mobile application created by my team and I in a course in interaction design. The mobile application's purpose is to inform consumers about environmentally friendly food alternatives. Through user research (interviews and questionaires), a low fidelity (lo-fi) prototype was created which later developed to a high-fi prototype and later to the end product."
+        "EcoFinder is a mockup mobile application designed duing a project in a course in interaction design. The mobile application's purpose is to inform consumers about environmentally friendly food alternatives. Leveraging user research methodologies such as interviews and questionnaires, we initially crafted a low-fidelity (lo-fi) prototype. Subsequently, this prototype evolved into a high-fidelity (hi-fi) version using Figma. The design journey unfolded iteratively across three sprints, with thorough testing conducted after each phase."
     },
     {
       name: "Privacy Notice Management",
@@ -269,9 +263,7 @@ let info = {
       github: "",
       date: "Jan, 2023 - April, 2023",
       visit: "",
-      description:
-        "Privacy Notice Management is a mockup web application created by my team and I in collaboration with Pinteg. The application's purpose is to facilitate the management of privacy notices for Pinteg's clients."
-    }
+      description: "Privacy Notice Management is a conceptual web application collaboratively developed with Pinteg as part of a school project. This application streamlines the process of managing privacy notices for Pinteg's clientele. The design concept emerged from comprehensive user and market research, coupled with close collaboration and communication with Pinteg throughout the development process."    }
   ],
   /*recommendations: [
     {
