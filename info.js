@@ -57,7 +57,7 @@ let info = {
       position: "Summer worker",
       description:
         "Worked as a Software Intern for the SiteDesigner team at Axis, designed and developed a feature that enables RTL languages for a web application.",
-      skills: ["React", "Node.js", "Typescript", "Git", "UX design", "Figma"]
+      skills: ["React", "Node.js", "Typescript", "Git", "Frontend development"]
     },
     {
       name: "Amazon Web Services",
@@ -92,7 +92,7 @@ let info = {
       date: "Aug, 2021 - Jan, 2021",
       position: "UX/UI designer",
       description:
-        "Designed a conceptualize prototype for a mobile application using Figma.",
+        "Conceptualized a design prototype for a mobile application using Figma.",
       skills: ["UX/UI design", "Figma", "Prototyping"]
     },
     {
@@ -101,8 +101,8 @@ let info = {
       date: "Aug, 2021 - Nov, 2021",
       position: "Web developer",
       description:
-        "Developed an e-commerce website using React. The website enables users to browse and purchase plants and garden tools.",
-      skills: ["React", "Web development", "Javascript", "Typescript"]
+        "Developed an e-commerce website using PHP and MySQL. The website enables users to browse and purchase plants and garden tools.",
+      skills: ["Web development","PHP", "MySQL", "Backend development"]
     }
   ],
   skills: [
@@ -115,7 +115,8 @@ let info = {
         "Java",
         "C",
         "C#",
-        "SQL"
+        "SQL",
+        "php"
       ],
       icon: "fa fa-code"
     },
