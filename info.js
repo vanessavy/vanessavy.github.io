@@ -1,7 +1,7 @@
 let info = {
   name: "Vanessa Nguyen",
   logo_name: "Vanessa",
-  flat_picture: require("./public/portrait.png"),
+  flat_picture: require("./public/portrait.jpg"),
   config: {
     use_cookies: true,
     navbar: {
