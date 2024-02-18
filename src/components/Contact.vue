@@ -245,6 +245,7 @@ export default {
 
 <style scoped>
 .grid {
+  align-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
