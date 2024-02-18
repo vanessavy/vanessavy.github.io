@@ -86,7 +86,7 @@ export default {
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.target = '_blank';
-    link.download = 'my-pdf-file.pdf';
+    link.download = 'Vanessa_Nguyen.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -99,12 +99,9 @@ export default {
         case "github":
           window.open(this.github, "_blank");
           break;
-        /* case "resume":
-          window.open(this.resume, "_blank");
-          break; */
-          case "resume":
-          this.downloadPdf(this.resume);
-          break;
+        case "resume":
+        this.downloadPdf(this.resume);
+        break;
       }
     },
   },
