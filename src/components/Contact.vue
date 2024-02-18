@@ -15,91 +15,148 @@
         data-aos-duration="1000"
       >
         <span
-          class="title text-center"
+          class="title text"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
           >Contact</span
         >
       </div>
+
       <hr
         width="50%"
         :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
       />
       <br />
-      <div class="text-center">
-        <div
-          class="mb-3"
-          data-aos="fade-up"
-          data-aos-once="true"
-          data-aos-duration="1000"
-        >
-          <input
-            type="text"
-            name="user_name"
-            v-model="name"
-            placeholder="name"
-            class="pinput"
-            :class="{
-              pgray: !nightMode,
-              'pgray-dark': nightMode,
-              'text-light': nightMode,
-            }"
-            style="transition-delay: 0.2s"
-          />
+      <div class="grid">
+        <div class="text">
+          <div
+            class="mb-3s"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1000"
+          >
+            <input
+              type="text"
+              name="user_name"
+              v-model="name"
+              placeholder="Name"
+              class="pinput"
+              :class="{
+                pgray: !nightMode,
+                'pgray-dark': nightMode,
+                'text-light': nightMode,
+              }"
+              style="transition-delay: 0.2s"
+            />
+          </div>
+
+          <div
+            class="my-3"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1000"
+          >
+            <input
+              type="email"
+              name="user_email"
+              v-model="email"
+              placeholder="Email"
+              class="pinput"
+              :class="{
+                pgray: !nightMode,
+                'pgray-dark': nightMode,
+                'text-light': nightMode,
+              }"
+              style="transition-delay: 0.4s"
+            />
+          </div>
+
+          <div
+            class="my-3"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1000"
+          >
+            <textarea
+              name="message"
+              v-model="text"
+              placeholder="Message"
+              class="pinput"
+              rows="4"
+              :class="{
+                pgray: !nightMode,
+                'pgray-dark': nightMode,
+                'text-light': nightMode,
+              }"
+              style="transition-delay: 0.6s"
+            ></textarea>
+          </div>
+
+          <button
+            @click.prevent="sendEmail"
+            class="mt-1 btn mb-3"
+            data-aos="fade"
+            data-aos-once="true"
+            data-aos-duration="1000"
+            data-aos-offset="50"
+          >
+            Send
+          </button>
         </div>
 
-        <div
-          class="my-3"
-          data-aos="fade-up"
-          data-aos-once="true"
-          data-aos-duration="1000"
-        >
-          <input
-            type="email"
-            name="user_email"
-            v-model="email"
-            placeholder="email"
-            class="pinput"
-            :class="{
-              pgray: !nightMode,
-              'pgray-dark': nightMode,
-              'text-light': nightMode,
-            }"
-            style="transition-delay: 0.4s"
-          />
-        </div>
+        <div class="text-center">
+          <div
+            class="mb-3"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1000"
+          >
+          <span
+            class="title"
+            :class="{ pgray: !nightMode, 'text-light': nightMode }"
+            >Vanessa Nguyen</span>
+            <br />
+          <span
+          class="title2"
+          :class="{ pgray: !nightMode, 'text-light': nightMode }"
+          >Software Engineer</span>
+          </div>
 
-        <div
-          class="my-3"
-          data-aos="fade-up"
-          data-aos-once="true"
-          data-aos-duration="1000"
-        >
-          <textarea
-            name="message"
-            v-model="text"
-            placeholder="message"
-            class="pinput"
-            rows="4"
-            :class="{
-              pgray: !nightMode,
-              'pgray-dark': nightMode,
-              'text-light': nightMode,
-            }"
-            style="transition-delay: 0.6s"
-          ></textarea>
-        </div>
+          <div
+            class="my-3"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1000"
+          >
+          <span
+          class="title0"
+          :class="{ pgray: !nightMode, 'text-light': nightMode }"
+          >Phone</span>
+          <br />
+          <span
+          class="title2 "
+          :class="{ pgray: !nightMode, 'text-light': nightMode }"
+          >+46 769 33 18 60</span>
+          </div>
 
-        <button
-          @click.prevent="sendEmail"
-          class="mt-1 btn mb-3"
-          data-aos="fade"
-          data-aos-once="true"
-          data-aos-duration="1000"
-          data-aos-offset="50"
-        >
-          Send
-        </button>
+          <div
+            class="my-3"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1000"
+          >
+          <span
+          class="title0"
+          :class="{ pgray: !nightMode, 'text-light': nightMode }"
+          >Email</span>
+          <br />
+          <span
+          class="title2"
+          :class="{ pgray: !nightMode, 'text-light': nightMode }"
+          >vanessavy.nguyen@outlook.com</span>
+          </div>
+        </div>
       </div>
+    </div>
 
       <Snackbar
         :showSnackbar="showSnackbar"
@@ -107,7 +164,6 @@
         :snackbarMessage="snackbarMessage"
         :snackbarColor="snackbarColor"
       />
-    </div>
   </div>
 </template>
 
@@ -188,8 +244,16 @@ export default {
 </script>
 
 <style scoped>
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .title {
   font-size: 30px;
+  font-weight: 500;
+}
+.title0 {
+  font-size: 24px;
   font-weight: 500;
 }
 .title1 {
