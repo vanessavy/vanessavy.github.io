@@ -27,7 +27,7 @@
       />
       <br />
       <div class="grid">
-        <div class="text">
+        <div class="text-center">
           <div
             class="mb-3s"
             data-aos="fade-up"
