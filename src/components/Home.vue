@@ -39,9 +39,9 @@
               <i class="fab fa-github"></i>
             </button>
             <button
-              class="btn btn-outline-secondary mx-2"
+            class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
-              v-tooltip.bottom="'Resume'"
+              v-tooltip.bottom="'Download Resume'"
             >
               <i class="fa fa-file"></i>
             </button>
@@ -77,10 +77,20 @@ export default {
       linkedin: info.links.linkedin,
       github: info.links.github,
       angellist: info.links.angellist,
+      //resume: info.links.resume
       resume: info.links.resume
     };
   },
   methods: {
+    downloadPdf(pdfUrl) {
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.target = '_blank';
+    link.download = 'my-pdf-file.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  },
     open(link) {
       switch (link) {
         case "linkedin":
@@ -89,8 +99,11 @@ export default {
         case "github":
           window.open(this.github, "_blank");
           break;
-        case "resume":
+        /* case "resume":
           window.open(this.resume, "_blank");
+          break; */
+          case "resume":
+          this.downloadPdf(this.resume);
           break;
       }
     },
