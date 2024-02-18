@@ -41,7 +41,7 @@
             <button
             class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
-              v-tooltip.bottom="'Download Resume'"
+              v-tooltip.bottom="'Resume'"
             >
               <i class="fa fa-file"></i>
             </button>
@@ -77,7 +77,6 @@ export default {
       linkedin: info.links.linkedin,
       github: info.links.github,
       angellist: info.links.angellist,
-      //resume: info.links.resume
       resume: info.links.resume
     };
   },
@@ -100,7 +99,7 @@ export default {
           window.open(this.github, "_blank");
           break;
         case "resume":
-        this.downloadPdf(this.resume);
+          window.open(this.resume, "_blank");
         break;
       }
     },
