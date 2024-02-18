@@ -103,7 +103,7 @@
           </button>
         </div>
 
-        <div class="text-center">
+        <div class="contactinfo">
           <div
             class="mb-3"
             data-aos="fade-up"
@@ -244,6 +244,10 @@ export default {
 </script>
 
 <style scoped>
+.contactinfo {
+  text-align: center;
+  width:50%;
+}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -314,5 +318,10 @@ export default {
   .btn {
     width: 90%;
   }
+}
+@media only screen and (max-width: 580px) {
+.contactinfo {
+  width: 0%;
+}
 }
 </style>
