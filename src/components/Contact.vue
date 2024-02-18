@@ -277,14 +277,14 @@ export default {
   border: none;
   border-radius: 7px;
   padding: 10px;
-  width: 50%;
+  width: 100%;
   transition: all 1s;
 }
 
 .btn {
   border-color: #669db3ff;
   color: #669db3ff;
-  width: 50%;
+  width: 100%;
 }
 
 .btn:hover {
