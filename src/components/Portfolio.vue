@@ -1,11 +1,7 @@
 <template>
   <div
     class="py-4 p-st"
-    :class="{
-      'bg-light': !nightMode,
-      'bg-dark2': nightMode,
-      'text-light': nightMode,
-    }"
+    :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }"
   >
     <div class="container">
       <div

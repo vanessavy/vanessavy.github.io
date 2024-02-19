@@ -58,7 +58,7 @@ let info = {
         "Worked as a Software Intern for the SiteDesigner team at Axis, designed and developed a feature that enables RTL languages for a web application.",
       skills: ["React", "Node.js", "Typescript", "Git", "Frontend development"]
     },
-    {
+    /* {
       name: "Amazon Web Services",
       place: "Polytechnique Montréal, Canada",
       date: "Aug, 2023 - Jan, 2024",
@@ -66,44 +66,42 @@ let info = {
       description:
         "Deployed multiple instances of Flask applications and a cluster of MySQL using AWS. Used AWS to create virtual machines for different purposes. ",
       skills: ["AWS", "Flask", "Ubuntu", "Linux", "Cloud computing"]
-    },
-    {
-      name: "A musical VR Experience",
-      place: "Lund University, Sweden",
-      date: "Jan, 2023 - Jun, 2023",
-      position: "VR developer",
-      description:
-        "Developed a VR application for musical experiences in collaboration with Capgemini using Unity and Blender. The application enables users to manipulate sounds, play instruments and experience music in a virtual environment with the use of hand tracking.",
-      skills: ["Unity", "Blender", "C#", "VR"]
-    },
-    {
-      name: "Äggstafett",
-      place: "Lund University, Sweden",
-      date: "Jan, 2022 - Jun, 2022",
-      position: "Android developer",
-      description:
-        "Developed an Android mobile game using Android Studio. The game involves players balancing an egg on a spoon and competing with others.",
-      skills: ["Java", "Android Studios", "Mobile development"]
-    },
-    {
-      name: "EcoFinder",
-      place: "Lund University, Sweden",
-      date: "Aug, 2021 - Jan, 2021",
-      position: "UX/UI designer",
-      description:
-        "Conceptualized a design prototype for a mobile application using Figma.",
-      skills: ["UX/UI design", "Figma", "Prototyping"]
-    },
-    {
-      name: "Plants & stuff",
-      place: "Lund University, Sweden",
-      date: "Aug, 2021 - Nov, 2021",
-      position: "Web developer",
-      description:
-        "Developed an e-commerce website using PHP and MySQL. The website enables users to browse and purchase plants and garden tools.",
-      skills: ["Web development","PHP", "MySQL", "Backend development"]
-    }
+    }, */
   ],
+  SoftwareDevelopment: [
+  {
+    name: "Äggstafett",
+    place: "Lund University, Sweden",
+    date: "Jan, 2022 - Jun, 2022",
+    description:
+      "Developed an Android mobile game using Android Studio. The game involves players balancing an egg on a spoon and competing with others.",
+    skills: ["Java", "Android Studios", "Mobile development"]
+  },
+  {
+    name: "Plants & stuff",
+    place: "Lund University, Sweden",
+    date: "Aug, 2021 - Nov, 2021",
+    description:
+      "Developed an e-commerce website using PHP and MySQL. The website enables users to browse and purchase plants and garden tools.",
+    skills: ["Web development","PHP", "MySQL", "Backend development"]
+  }],
+  VRDevelopment: [{
+    name: "A musical VR Experience",
+    place: "Lund University, Sweden",
+    date: "Jan, 2023 - Jun, 2023",
+    description:
+      "Developed a VR application for musical experiences in collaboration with Capgemini using Unity and Blender. The application enables users to manipulate sounds, play instruments and experience music in a virtual environment with the use of hand tracking.",
+    skills: ["Unity", "Blender", "C#", "VR"]
+  },
+  {
+    name: "To Be a Robot",
+    place: "Lund University, Sweden",
+    date: "Aug, 2022 - Jan, 2023",
+    description:
+      "Developed a multiplayer game in Virtual Reality for cognitive research using Unity and Photon Pun. The game involves two players building a tower with restricted visual perception.",
+    skills: ["Unity", "Blender", "C#", "VR"]
+  }
+],
   skills: [
     {
       title: "programming languages",
