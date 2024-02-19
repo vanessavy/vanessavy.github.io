@@ -287,7 +287,7 @@ export default {
   color: white;
 }
 
-/deep/ .vue-tabs .nav-tabs {
+::v-deep .vue-tabs .nav-tabs {
   border: none;
   font-size: 20px;
   font-weight: 500;
@@ -296,11 +296,11 @@ export default {
   justify-content: center;
 }
 
-/deep/ .vue-tabs .tabs__link {
+::v-deep .vue-tabs .tabs__link {
   color: #a0a0a0;
 }
 
-/deep/ .vue-tabs .nav-tabs > li.active > a {
+::v-deep .vue-tabs .nav-tabs > li.active > a {
   background: transparent;
   border: none;
   transition: all 0.5s;
@@ -310,19 +310,19 @@ export default {
   margin-left: 15px;
 }
 
-/deep/ .vue-tabs .nav-tabs > li > a:hover {
+::v-deep .vue-tabs .nav-tabs > li > a:hover {
   background: transparent;
   color: #cbcbcb;
   transition: all 0.5s;
 }
 
-/deep/ .vue-tabs .nav-tabs > li > a {
+::v-deep .vue-tabs .nav-tabs > li > a {
   background: transparent;
   border: none;
   transition: all 0.5s;
 }
 
-/deep/ .vue-tabs .nav-tabs > li > a:after {
+::v-deep .vue-tabs .nav-tabs > li > a:after {
   content: "";
   width: 20%;
   position: absolute;
@@ -332,7 +332,7 @@ export default {
   transition: all 0.5s;
 }
 
-/deep/ .vue-tabs .nav-tabs > li.active > a:after {
+::v-deep .vue-tabs .nav-tabs > li.active > a:after {
   width: 100%;
   transition: all 0.5s;
 }
@@ -370,10 +370,10 @@ export default {
   opacity: 1;
 }
 
-/deep/.vueperslide {
+::v-deep.vueperslide {
   border-radius: 10px !important;
 }
-/deep/.vueperslides__parallax-wrapper {
+::v-deep.vueperslides__parallax-wrapper {
   border-radius: 10px !important;
 }
 
@@ -393,7 +393,7 @@ export default {
   border-color: #669db3ff;
   color: white;
 }
-/deep/ .vueperslides__arrow {
+::v-deep .vueperslides__arrow {
   outline: none !important;
   border: none;
   color: grey;
