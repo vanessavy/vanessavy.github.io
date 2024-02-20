@@ -12,7 +12,7 @@
         class="text-center"
         data-aos="fade"
         data-aos-once="true"
-        data-aos-duration="1000"
+        data-aos-duration="1000" 
       >
         <span
           class="title text"
@@ -32,7 +32,7 @@
             class="mb-3s"
             data-aos="fade-up"
             data-aos-once="true"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <input
               type="text"
@@ -53,7 +53,7 @@
             class="my-3"
             data-aos="fade-up"
             data-aos-once="true"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <input
               type="email"
@@ -74,7 +74,7 @@
             class="my-3"
             data-aos="fade-up"
             data-aos-once="true"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <textarea
               name="message"
@@ -96,7 +96,7 @@
             class="mt-1 btn mb-3"
             data-aos="fade"
             data-aos-once="true"
-            data-aos-duration="1000"
+            data-aos-duration="500"
             data-aos-offset="50"
           >
             Send
@@ -108,7 +108,7 @@
             class="mb-3"
             data-aos="fade-up"
             data-aos-once="true"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
           <span
             class="title"
@@ -125,7 +125,7 @@
             class="my-3"
             data-aos="fade-up"
             data-aos-once="true"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
           <span
           class="title0"
@@ -142,7 +142,7 @@
             class="my-3"
             data-aos="fade-up"
             data-aos-once="true"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
           <span
           class="title0"
