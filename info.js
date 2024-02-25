@@ -157,20 +157,6 @@ let info = {
   ],
   portfolio: [
     {
-      name: "Axis Communications",
-      pictures: [
-        {
-          img: '/public/assets/portfolio/Axis/Axis.png'
-        },
-        {
-          img: "/public/assets/portfolio/Axis/Sitedesigner.png"
-        }
-      ],
-      technologies: ["React", "Node.js", "Typescript", "Git", "UX design", "Figma"],
-      category: "Front end development",
-      date: "June, 2023 - Aug, 2023",
-      description: "I led the development of a feature that enables RTL languages on the SiteDesigner website, leveraging React for implementation. Additionally, I played a pivotal role in exploring the integration of FluentUI into the website's design framework using Figma."},
-    {
       name: "A musical VR Experience",
       pictures: [
         {
@@ -213,7 +199,32 @@ let info = {
       technologies: ["Java", "Android Studios", "Mobile development"],
       category: "Mobile app development",
       date: "Jan, 2022 - June, 2022",
-      description:"In the realm of app development, our team achieved success in creating Äggstafett, an Android mobile game, utilizing Android Studio with pair programming. The game is inspired by the Swedish tradition of Äggstafett, challenging players to balance an egg on a spoon while racing against each other. Throughout the project, I undertook the dual roles of designing and developing the game. The implementation was done by pair programming in Java and using Figma for design purposes."    }
+      description:"In the realm of app development, our team achieved success in creating Äggstafett, an Android mobile game, utilizing Android Studio with pair programming. The game is inspired by the Swedish tradition of Äggstafett, challenging players to balance an egg on a spoon while racing against each other. Throughout the project, I undertook the dual roles of designing and developing the game. The implementation was done by pair programming in Java and using Figma for design purposes."
+    },
+    {
+      name: "Plants & stuff",
+      pictures: [
+        {
+          img: '/public/assets/portfolio/PnS/PnS.png'
+        },
+        {
+          img: "/public/assets/portfolio/PnS/PnS2.png"
+        },
+        {
+          img: "/public/assets/portfolio/PnS/PnS3.png"
+        },
+        {
+          img: "/public/assets/portfolio/PnS/PnS4.png"
+        },
+        {
+          img: "/public/assets/portfolio/PnS/PnS5.png"
+        }
+      ],
+      technologies: ["php", "MySQL", "Java", "HTML", "CSS", "backend"],
+      category: "Back end development",
+      date: "Aug, 2021 - Nov, 2021",
+      description: "Co-developed an e-commerce website using PHP and MySQL for backend. The website enables users to create accounts, log in, browse, and purchase plants and garden tools."
+    }
   ],
   portfolio_design: [
     {
