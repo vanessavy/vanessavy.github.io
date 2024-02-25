@@ -205,7 +205,7 @@ let info = {
       name: "Plants & stuff",
       pictures: [
         {
-          img: '/public/assets/portfolio/PnS/PnS.png'
+          img: "/public/assets/portfolio/PnS/PnS.png"
         },
         {
           img: "/public/assets/portfolio/PnS/PnS2.png"
