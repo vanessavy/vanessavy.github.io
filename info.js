@@ -232,23 +232,39 @@ let info = {
       title: "EcoFinder - Mockup Design",
       pictures: [
         {
+          img: "/public/assets/designs/ecofinder/affinitydiagram.png",
+          title: "The affinity diagram made from all data collected from the user research."
+        },
+        {
+          img: "/public/assets/designs/ecofinder/storyboard.png",
+          title: "One of the storyboards created during brainstorming."
+        },
+        {
+          img: "/public/assets/designs/ecofinder/lofi1.png",
+          title: "The lo-fi prototype."
+        },
+        {
+          img: "/public/assets/designs/ecofinder/lofi2.png",
+          title: "The lo-fi prototype."
+        },
+        {
           img: "/public/assets/designs/ecofinder/1.png",
-          title: "Home Page"
+          title: "The hi-fi prototype created in Figma."
         },
         {
           img: "/public/assets/designs/ecofinder/2.png",
-          title: "Info Page"
+          title: "Hi-fi prototype of Info Page."
         },
         {
           img: "/public/assets/designs/ecofinder/3.png",
-          title: "Voucher Page"
+          title: "Hi-fi prototype of Voucher Page."
         }
       ],
       technologies: ["Figma"],
       category: "UI Design",
       date: "Aug, 2021 - Jan, 2022",
       description:
-        "EcoFinder is a mockup mobile application designed duing a project in a course in interaction design. The mobile application's purpose is to inform consumers about environmentally friendly food alternatives. Leveraging user research methodologies such as interviews and questionnaires, we initially crafted a low-fidelity (lo-fi) prototype. Subsequently, this prototype evolved into a high-fidelity (hi-fi) version using Figma. The design journey unfolded iteratively across three sprints, with thorough testing conducted after each phase."
+        "EcoFinder is a mockup mobile application designed duing a project in a course in interaction design. The mobile application's purpose is to inform consumers about environmentally friendly food alternatives. Leveraging user research methodologies such as interviews and questionnaires, the user data was organised and analyzed using an affinity diagram. The brainstorming process included various techniques such as creating storyboards. We initially crafted a low-fidelity (lo-fi) prototype with simple sketches to test the usability of the proposed product. Subsequently, this prototype evolved into a high-fidelity (hi-fi) version using Figma. The design journey unfolded iteratively across three sprints, with thorough usability testing conducted after each phase."
     },
     {
       name: "Privacy Notice Management",
@@ -256,15 +272,15 @@ let info = {
       pictures: [
         {
           img: "/public/assets/designs/Pinteg/one.png",
-          title: "Start page"
+          title: "Hi-fi prototype of Start page."
         },
         {
           img: "/public/assets/designs/Pinteg/two.png",
-          title: "Edit page"
+          title: "Hi-fi prototype of Edit page."
         },
         {
           img: "/public/assets/designs/Pinteg/three.png",
-          title: "Confirmation page"
+          title: "Hi-fi prototype of Confirmation page."
         }
       ],
       technologies: ["Figma"],
