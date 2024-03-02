@@ -232,6 +232,9 @@ let info = {
       title: "EcoFinder - Mockup Design",
       pictures: [
         {
+          img: "/public/assets/designs/ecofinder/ecofinder.png",
+        },
+        {
           img: "/public/assets/designs/ecofinder/affinitydiagram.png",
           title: "The affinity diagram made from all data collected from the user research."
         },
