@@ -35,7 +35,7 @@ let info = {
     {
       name: "Polytechnique Montréal",
       place: "Canada",
-      date: "Aug, 2023 - January, 2025",
+      date: "Aug, 2023 - Jan, 2024",
       degree: "Software",
       description:
         "An exchange term studying courses related to Software Development.",
