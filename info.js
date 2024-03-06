@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "I'm currently pursuing a Master's degree in Information and Communications Technology at Lund University, where my focus lies in Software Development, UX Design, and VR Development. I am actively seeking captivating opportunities within these realms.<br><br>Beyond academia, I have led and contributed to various projects that showcase my technical prowess and creativity. Whether it's developing mobile games, designing UX prototypes, or deploying cloud solutions using AWS, I am passionate about leveraging technology to make a positive impact.<br><br>The fusion of my academic pursuits and past experiences has honed my abilities, equipping me to tackle challenges with creativity and efficiency. I am enthusiastic about the prospect of further refining and applying my skills in new and exciting opportunities.",
+    "I'm currently pursuing a M.Sc. degree in Information and Communications Technology at Lund University, where my focus lies in Software Development, UX Design, and VR Development. I am actively seeking captivating opportunities within these realms.<br><br>Beyond academia, I have led and contributed to various projects that showcase my technical prowess and creativity. Whether it's developing mobile games, designing UX prototypes, or creating immersive VR applications, I am passionate about leveraging technology to make a positive impact.<br><br>The fusion of my academic pursuits and past experiences has honed my abilities, equipping me to tackle challenges with creativity and efficiency. I am enthusiastic about the prospect of further refining and applying my skills in new and exciting opportunities.",
   links: {
     linkedin: "https://linkedin.com/in/vanessa-nguyen-485186267",
     github: "https://github.com/vanessavy",
@@ -22,14 +22,14 @@ let info = {
       date: "Aug, 2019 - current",
       degree: "M.Sc in Informations and Communications Technology",
       description:
-        "Currently pursuing my Master's in Informations and Communications Technology, while specializing in the field of Interaction Design and Usability.",
+        "Currently pursuing my M.Sc. in Informations and Communications Technology, while specializing in the field of Interaction Design and Usability.",
       skills: [
         "Software Engineering",
         "Web Development",
         "UX/UI Design",
         "Interaction Design",
         "VR Development",
-        "Mobile development"
+        "Mobile Development"
       ]
     },
     {
@@ -53,9 +53,9 @@ let info = {
       name: "Axis Communications",
       place: "Lund, Sweden",
       date: "Jun, 2023 - Aug, 2023",
-      position: "Summer worker",
+      position: "Summer Intern",
       description:
-        "Worked as a Software Intern for the SiteDesigner team at Axis, designed and developed a feature that enables RTL languages for a web application.",
+        "Designed and developed an internationalization feature that enables RTL languages for a web application using React. Effectively utilized Git for version control and managed project tasks and workflows with transparency and accountability using Jira. Improved app functionality and increased user experience and satisfaction. Additionally, investigated how to incorporate Fluent UI into the web design using Figma.",
       skills: ["React", "Node.js", "Typescript", "Git", "Frontend development"]
     },
     /* {
