@@ -22,7 +22,7 @@ let info = {
       date: "Aug, 2019 - current",
       degree: "M.Sc in Informations and Communications Technology",
       description:
-        "Currently pursuing my M.Sc. in Informations and Communications Technology, while specializing in the field of Interaction Design and Usability.",
+        "Currently pursuing my M.Sc. degree in Informations and Communications Technology, while specializing in the field of Interaction Design and Usability.",
       skills: [
         "Software Engineering",
         "Web Development",
@@ -41,10 +41,10 @@ let info = {
         "An exchange term studying courses related to Software Development.",
       skills: [
         "Cloud Computing",
-        "Amazon Web Services",
         "Software Quality Engineering",
         "Software architectures and advanced patterns",
-        "HCI"
+        "HCI",
+        "IoT"
       ]
     }
   ],
@@ -55,8 +55,8 @@ let info = {
       date: "Jun, 2023 - Aug, 2023",
       position: "Summer Intern",
       description:
-        "Designed and developed an internationalization feature that enables RTL languages for a web application using React. Effectively utilized Git for version control and managed project tasks and workflows with transparency and accountability using Jira. Improved app functionality and increased user experience and satisfaction. Additionally, investigated how to incorporate Fluent UI into the web design using Figma.",
-      skills: ["React", "Node.js", "Typescript", "Git", "Frontend development"]
+        "Designed and developed an internationalization feature that enables RTL languages for a web application using React. Improved app functionality and increased user experience and satisfaction. Additionally, investigated how to incorporate Fluent UI into the web design using Figma.",
+      skills: ["React", "Typescript", "Git", "Frontend development"]
     },
     /* {
       name: "Amazon Web Services",
@@ -106,12 +106,11 @@ let info = {
     {
       title: "programming languages",
       info: [
+        "Java",
         "Python",
+        "C#",
         "Javascript",
         "TypeScript",
-        "Java",
-        "C",
-        "C#",
         "SQL",
         "php"
       ],
@@ -140,12 +139,12 @@ let info = {
       title: "operating systems & tools",
       info: [
         "MacOS",
-        "Android",
+        "Android Studios",
         "Unity",
         "AWS EC2",
-        "Agile",
-        "Scrum",
-        "JIRA"
+        "JIRA",
+        "Visual Studio Code",
+        "Git"
       ],
       icon: "fas fa-tools"
     },
