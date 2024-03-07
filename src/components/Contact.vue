@@ -10,9 +10,6 @@
     <div class="container">
       <div
         class="text-center"
-        data-aos="fade"
-        data-aos-once="true"
-        data-aos-duration="1000" 
       >
         <span
           class="title text"
@@ -30,9 +27,6 @@
         <div class="text-center">
           <div
             class="mb-3s"
-            data-aos="fade-up"
-            data-aos-once="true"
-            data-aos-duration="500"
           >
             <input
               type="text"
@@ -51,9 +45,6 @@
 
           <div
             class="my-3"
-            data-aos="fade-up"
-            data-aos-once="true"
-            data-aos-duration="500"
           >
             <input
               type="email"
@@ -72,9 +63,6 @@
 
           <div
             class="my-3"
-            data-aos="fade-up"
-            data-aos-once="true"
-            data-aos-duration="500"
           >
             <textarea
               name="message"
@@ -94,10 +82,6 @@
           <button
             @click.prevent="sendEmail"
             class="mt-1 btn mb-3"
-            data-aos="fade"
-            data-aos-once="true"
-            data-aos-duration="500"
-            data-aos-offset="50"
           >
             Send
           </button>
@@ -106,9 +90,6 @@
         <div class="text-center">
           <div
             class="mb-3"
-            data-aos="fade-up"
-            data-aos-once="true"
-            data-aos-duration="500"
           >
           <span
             class="title"
@@ -123,9 +104,6 @@
 
           <div
             class="my-3"
-            data-aos="fade-up"
-            data-aos-once="true"
-            data-aos-duration="500"
           >
           <span
           class="title0"
@@ -140,9 +118,6 @@
 
           <div
             class="my-3"
-            data-aos="fade-up"
-            data-aos-once="true"
-            data-aos-duration="500"
           >
           <span
           class="title0"
