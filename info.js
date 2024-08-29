@@ -58,15 +58,22 @@ let info = {
         "Designed and developed an internationalization feature that enables RTL languages for a web application using React. Improved app functionality and increased user experience and satisfaction. Additionally, investigated how to incorporate Fluent UI into the web design using Figma.",
       skills: ["React", "Typescript", "Git", "Frontend development"]
     },
-    /* {
-      name: "Amazon Web Services",
-      place: "Polytechnique Montréal, Canada",
-      date: "Aug, 2023 - Jan, 2024",
-      position: "Software developer",
-      description:
-        "Deployed multiple instances of Flask applications and a cluster of MySQL using AWS. Used AWS to create virtual machines for different purposes. ",
-      skills: ["AWS", "Flask", "Ubuntu", "Linux", "Cloud computing"]
-    }, */
+    {
+      name: "Frank Valiant",
+      place: "Lund, Sweden",
+      date: "Mar, 2024 - May, 2024",
+      position: "R&D Intern",
+      description: "Led research efforts and developments to enhance user experience in 360° virtual environments, focusing on directing user attention effectively towards key elements and focal points. Designed and developed prototypes of virtual environments with implementation of attention guidance techniques. Conducted user testing to test user acceptance and the effectiveness of various attention guidance techniques.",
+      skills: ["VR", "Unreal Engine", "UX"]
+    },
+    {
+      name: "Ericsson",
+      place: "Lund, Sweden",
+      date: "Jun, 2024 - Aug, 2024",
+      position: "Summer Intern",
+      description: "Led efforts to improve developer experience by overseeing a user acceptance testing process of a software tool for software developers. Created and designed a test plan and conducted two user studies with 16 participants in total. Documented user feedback, discovered usability problems and analyzed the usability of the product. Suggested design improvements and collaborated with development team to improve UX and DX for developers.",
+      skills: ["DX", "User testing", "Usability testing", "UX"]
+    }
   ],
   SoftwareDevelopment: [
   {
