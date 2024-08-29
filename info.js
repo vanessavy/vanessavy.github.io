@@ -64,7 +64,7 @@ let info = {
       date: "Mar, 2024 - May, 2024",
       position: "R&D Intern",
       description: "Led research efforts and developments to enhance user experience in 360° virtual environments, focusing on directing user attention effectively towards key elements and focal points. Designed and developed prototypes of virtual environments with implementation of attention guidance techniques. Conducted user testing to test user acceptance and the effectiveness of various attention guidance techniques.",
-      skills: ["VR", "Unreal Engine", "UX"]
+      skills: ["VR", "Unreal Engine 5", "UX"]
     },
     {
       name: "Ericsson",
