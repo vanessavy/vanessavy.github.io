@@ -145,9 +145,9 @@ let info = {
     {
       title: "operating systems & tools",
       info: [
-        "MacOS",
         "Android Studios",
         "Unity",
+        "Unreal Engine 5",
         "AWS EC2",
         "JIRA",
         "Visual Studio Code",
