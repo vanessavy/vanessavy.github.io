@@ -50,13 +50,12 @@ let info = {
   ],
   experience: [
     {
-      name: "Axis Communications",
+      name: "Ericsson",
       place: "Lund, Sweden",
-      date: "Jun, 2023 - Aug, 2023",
+      date: "Jun, 2024 - Aug, 2024",
       position: "Summer Intern",
-      description:
-        "Designed and developed an internationalization feature that enables RTL languages for a web application using React. Improved app functionality and increased user experience and satisfaction. Additionally, investigated how to incorporate Fluent UI into the web design using Figma.",
-      skills: ["React", "Typescript", "Git", "Frontend development"]
+      description: "Led efforts to improve developer experience by overseeing a user acceptance testing process of a software tool for software developers. Created and designed a test plan and conducted two user studies with 16 participants in total. Documented user feedback, discovered usability problems and analyzed the usability of the product. Suggested design improvements and collaborated with development team to improve UX and DX for developers.",
+      skills: ["DX", "User testing", "Usability testing", "UX"]
     },
     {
       name: "Frank Valiant",
@@ -67,12 +66,13 @@ let info = {
       skills: ["VR", "Unreal Engine 5", "UX"]
     },
     {
-      name: "Ericsson",
+      name: "Axis Communications",
       place: "Lund, Sweden",
-      date: "Jun, 2024 - Aug, 2024",
+      date: "Jun, 2023 - Aug, 2023",
       position: "Summer Intern",
-      description: "Led efforts to improve developer experience by overseeing a user acceptance testing process of a software tool for software developers. Created and designed a test plan and conducted two user studies with 16 participants in total. Documented user feedback, discovered usability problems and analyzed the usability of the product. Suggested design improvements and collaborated with development team to improve UX and DX for developers.",
-      skills: ["DX", "User testing", "Usability testing", "UX"]
+      description:
+        "Designed and developed an internationalization feature that enables RTL languages for a web application using React. Improved app functionality and increased user experience and satisfaction. Additionally, investigated how to incorporate Fluent UI into the web design using Figma.",
+      skills: ["React", "Typescript", "Git", "Frontend development"]
     }
   ],
   SoftwareDevelopment: [
