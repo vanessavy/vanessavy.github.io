@@ -234,6 +234,25 @@ let info = {
   ],
   portfolio_design: [
     {
+      name: "VietCuisine",
+      title: "VietCuisine - Web Design",
+      pictures: [
+        {
+          img: "/public/assets/designs/vietcuisine/2.jpg",
+        },
+        {
+          img: "/public/assets/designs/vietcuisine/3.jpg",
+        },
+        {
+          img: "/public/assets/designs/vietcuisine/4.jpg",
+        }
+      ],
+      category: "Web Design", 
+      date: "Aug, 2024 - current",
+      description:
+        "Developed custom web design solution based on client's needs and desires while maintaining usability and functionality requirements. Coordinated and collaborated with client throughout the web development process, from concept to launch. Helped maintaining website content for the client, leading to improved user engagement and significant business growth."
+    },
+    {
       name: "EcoFinder",
       title: "EcoFinder - Mockup Design",
       pictures: [
@@ -274,8 +293,8 @@ let info = {
       date: "Aug, 2021 - Jan, 2022",
       description:
         "EcoFinder is a mockup mobile application designed duing a project in a course in interaction design. The mobile application's purpose is to inform consumers about environmentally friendly food alternatives. Leveraging user research methodologies such as interviews and questionnaires, the user data was organised and analyzed using an affinity diagram. The brainstorming process included various techniques such as creating storyboards. We initially crafted a low-fidelity (lo-fi) prototype with simple sketches to test the usability of the proposed product. Subsequently, this prototype evolved into a high-fidelity (hi-fi) version using Figma. The design journey unfolded iteratively across three sprints, with thorough usability testing conducted after each phase."
-    },
-    {
+    }
+    /* {
       name: "Privacy Notice Management",
       title: "PNM - Mockup Design",
       pictures: [
@@ -297,7 +316,8 @@ let info = {
       github: "",
       date: "Jan, 2023 - April, 2023",
       visit: "",
-      description: "Privacy Notice Management is a conceptual web application collaboratively developed with Pinteg as part of a school project. This application streamlines the process of managing privacy notices for Pinteg's clientele. The design concept emerged from comprehensive user and market research, coupled with close collaboration and communication with Pinteg throughout the development process."    }
+      description: "Privacy Notice Management is a conceptual web application collaboratively developed with Pinteg as part of a school project. This application streamlines the process of managing privacy notices for Pinteg's clientele. The design concept emerged from comprehensive user and market research, coupled with close collaboration and communication with Pinteg throughout the development process."
+    } */
   ],
   /*recommendations: [
     {
